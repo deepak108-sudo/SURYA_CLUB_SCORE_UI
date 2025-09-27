@@ -1,12 +1,13 @@
 // src/components/GameCard.jsx
 import React from "react";
 
-const GameCard = ({ title, webp, jpg, description }) => {
+const GameCard = ({ game, onClick }) => {
+  const { title, webp, jpg } = game;
   return (
     <div
       className="relative bg-white
                       rounded-3xl shadow-lg shadow-teal-950/70 lg:animate-none           // lg disables pulse
-                      lg:hover:scale-105        // lg hover scale hover:scale-110 transition-transform duration-500 overflow-hidden animate-scalePulse"
+                      lg:hover:scale-105        // lg hover scale hover:scale-110 transition-transform duration-500 overflow-hidden animate-scalePulse" onClick={()=> onClick(game)}
     >
       <picture>
         <source srcSet={webp} type="image/webp" />
