@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'VerminVibes';
+    src: local("VerminVibes"), 
+         url("/fonts/vermin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Novega';
+    src: local("Novega"), 
+         url("/fonts/novega.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'KnightWarrior';
+    src: local("KnightWarrior"), 
+         url("/fonts/knightWarrior.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'FastLines';
+    src: local("FastLines"), 
+         url("/fonts/fastLines.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'CrossFly';
+    src: local("CrossFly"), 
+         url("/fonts/crossFly.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'speedPixel';
+    src: local("speedPixel"), 
+         url("/fonts/speedPixel.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'speedPixelItalic';
+    src: local("speedPixelItalic"), 
+         url("/fonts/speedPixelItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Brave81';
+    src: local("Brave81"), 
+         url("/fonts/Brave81.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+}
